@@ -1,0 +1,35 @@
+public class prueba1 {
+    public static void main(String[] args) {
+        int resultado=0;
+        resultado=suma(10, 20,30);
+        System.out.println(resultado);
+    }
+    public static int suma(int a, int b, int c){
+
+       return a+b+c;
+
+    }
+
+
+}
+
+// segunda parte
+
+public class coche {
+
+    public static void main(String[] args) {
+      int micoche=0;
+
+
+       micoche=incp(4);
+
+
+        System.out.println(micoche);
+    }
+public static int incp(int puertas) {
+
+        return puertas+1;
+}
+
+}
+
